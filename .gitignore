@@ -1,0 +1,11 @@
+# This avoids committing generated files to source control.
+# These will probably change often. That's normal.
+# `inputGraph.txt` could also potentially change often,
+# but a file with that name needs to be in source control,
+# or a fresh clone of this repository won't work
+# "out of the box".
+index.html
+input.dot
+
+# Ignore installed dependencies.
+node_modules/

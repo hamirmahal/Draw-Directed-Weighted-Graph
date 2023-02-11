@@ -1,0 +1,17 @@
+{
+  "name": "draw-directed-weighted-graph",
+  "version": "1.0.0",
+  "description": "This tool takes a directed, weighted graph represented as a list of triplets as its input, and \"draws\" that graph using `dot`.",
+  "main": "createIndexHtml.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "nodemon --watch inputGraph.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hamir Mahal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
